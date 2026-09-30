@@ -19,3 +19,12 @@ A szakdolgozat célja egy komplex, felhőalapú webalkalmazás fejlesztése, ame
 * **Adatbázis:** MongoDB Atlas (NoSQL)
 * **Hardver (IoT):** ESP32 mikrokontroller, DHT22 (hő- és páratartalom), BH1750 (fényerő), SOILCAP-V20 (kapacitív talajnedvesség érzékelő)
 * **Nyelvek:** TypeScript, C++
+
+## Fejlesztési Napló
+
+* **2026. szeptember 30.:** 
+  * A projekt lokális klónozása.
+  * Szükséges IoT hardverkomponensek (ESP32, DHT22, BH1750, SOILCAP-V20) beszerezve.
+  * Next.js keretrendszer inicializálása és a TypeScript konfigurálása.
+  * Felhős infrastruktúra (Vercel + MongoDB Atlas) összekötése, a CI/CD folyamat sikeresen aktiválva.
+  * A webes app elérhetősége: https://plant-planner-iot-beta.vercel.app/
